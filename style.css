@@ -1,0 +1,59 @@
+
+body{
+	width: 100%;
+	height:100%;
+	font-family: 'Amatic SC', cursive;
+	background: url(bakery1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+.icons{
+	display: flex;
+	justify-content: flex-end;
+	}
+
+
+img{
+	margin: 0px 1rem;
+	}
+
+img:hover{
+	transform: scale(1.1);
+
+}
+.area{
+	height: 25rem;
+}
+
+h1{
+	font-size: 3.5rem;
+	color: #C42EEE;
+
+}
+p{
+	font-size:1.3rem;
+	font-family: Cedarville Cursive, cursive;
+	text-align: center;
+}
+hr{
+	border-color: black;
+	border-width:3px;
+	max-width: 80px;
+}
+.btn{
+	font-weight: 600;
+	border-radius: 300px;
+}
+.btn-primary{
+	border-color: purple;
+	background-color: purple;
+}
+
+.btn-primary:hover{
+	border-color: purple;
+	background-color: purple;
+	transform: scale(1.1);
+
+}
